@@ -3,9 +3,6 @@ Doctrine In4Range Type
 
 Thanks to @Salamek, this is an adapt to https://github.com/Salamek/doctrine-daterange
 
-
-[![Build Status](https://travis-ci.org/Salamek/doctrine-daterange.svg?branch=master)](https://travis-ci.org/salamek/doctrine-daterange)
-
 Supports PostgreSQL DateRange in Doctrine DBAL.
 
 Summary
