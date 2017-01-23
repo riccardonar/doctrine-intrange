@@ -20,7 +20,7 @@
 	"require" : {
 		"php" : ">=5.3.3",
 		"doctrine/dbal" : "~2.2,>=2.2.3",
-		"salamek/php-daterange" : ">=1.0"
+		"riccardonar/php-intrange" : ">=1.0"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "3.7.*",
