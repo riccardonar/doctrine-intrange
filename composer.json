@@ -3,7 +3,7 @@
 	"description" : "Supports postgres intrange in Doctrine DBAL.",
 	"keywords" : [
 		"doctrine",
-		"date",
+		"integer",
 		"range"
 	],
 	"homepage" : "https://github.com/riccardonar/doctrine-intrange",
