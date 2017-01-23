@@ -1,21 +1,20 @@
 {
-	"name" : "riccardonar/doctrine-int4range",
-	"description" : "Supports postgre int4Range in Doctrine DBAL.",
+	"name" : "riccardonar/doctrine-intrange",
+	"description" : "Supports postgres intrange in Doctrine DBAL.",
 	"keywords" : [
 		"doctrine",
 		"date",
 		"range"
 	],
-	"homepage" : "https://github.com/Salamek/doctrine-daterange",
+	"homepage" : "https://github.com/riccardonar/doctrine-intrange",
 	"license" : "MIT",
 	"authors" : [{
-			"name" : "Adam Schubert",
-			"email" : "adam.schubert@sg1-game.net",
-			"homepage" : "https://salamek.cz"
+			"name" : "Riccardo Narduzzi",
+			"homepage" : "https://github.com/riccardonar/doctrine-intrange"
 		}
 	],
 	"support" : {
-		"issues" : "https://github.com/salamek/doctrine-daterange/issues"
+		"issues" : "https://github.com/riccardonar/doctrine-intrange/issues"
 	},
 	"require" : {
 		"php" : ">=5.3.3",
@@ -28,7 +27,7 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"Salamek\\Doctrine" : "src/lib"
+			"mercurio\\Doctrine" : "src/lib"
 		}
 	},
 	"config" : {
