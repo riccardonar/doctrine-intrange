@@ -1,4 +1,4 @@
-Doctrine In4Range Type
+Doctrine IntRange Type
 ==========================
 
 Thanks to @Salamek, this is an adapt to https://github.com/Salamek/doctrine-daterange
