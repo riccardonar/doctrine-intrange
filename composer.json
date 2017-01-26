@@ -27,7 +27,7 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"mercurio\\Doctrine" : "src/lib"
+			"riccardonar\\Doctrine" : "src/lib"
 		}
 	},
 	"config" : {
