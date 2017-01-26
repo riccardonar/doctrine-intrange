@@ -75,7 +75,7 @@ class Job
     private $range;
 
     /**
-     * @return integer[]
+     * @return \riccardonar\IntRange
      */
     public function getRange()
     {
@@ -83,7 +83,7 @@ class Job
     }
 
     /**
-     * @param integer[] $range
+     * @param \riccardonar\IntRange $range
      */
     public function setRange(array $range)
     {
@@ -92,7 +92,7 @@ class Job
 }
 
 $annualJob = new Job();
-$annualJob->setRange(new \Salamek\DateRange(new \DateTime, (new \DateTime)->modify('+1 year')));
+$annualJob->setRange(new \riccardonar\IntRange(1, 6));
 
 $entityManager->persist($annualJob);
 $entityManager->flush();
@@ -102,6 +102,6 @@ $jobs = $entityManager->createQuery(
     "SELECT j FROM Jobs j"
 )->getResult();
 
-echo $jobs[0]->getRange()->getStartDate()->format(DateTime::ISO8601); // "NOW"
-echo $jobs[0]->getRange()->getEndDate()->format(DateTime::ISO8601); //  "NOW +1 year"
+echo $jobs[0]->getRange()->getStartInt(); // 1
+echo $jobs[0]->getRange()->getEndInt(); //  6
 ```
