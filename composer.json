@@ -26,12 +26,8 @@
 		"doctrine/orm" : "~2.2,>=2.2.3"
 	},
 	"autoload" : {
-		"psr-0" : {
-			"riccardonar\\Doctrine" : "src"
+		"psr-4" : {
+			"riccardonar\\Doctrine\\" : "src/"
 		}
-	},
-	"config" : {
-		"bin-dir" : "bin",
-		"vendor-dir" : "src/vendor"
 	}
 }
