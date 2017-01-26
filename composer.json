@@ -27,7 +27,7 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"riccardonar\\Doctrine" : "src/lib"
+			"riccardonar\\Doctrine" : "src"
 		}
 	},
 	"config" : {
