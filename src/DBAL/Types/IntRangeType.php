@@ -31,11 +31,11 @@ class IntRangeType extends StringType
     public function convertToPHPValue($value, AbstractPlatform $platform)
     {
         if (null !== $value) {
-            if (false == preg_match('/^(\[|\()(\d),(\d)(\]|\))$/', $value)) {
+            if (false == preg_match('/^(\[|\()(\d+),(\d+)(\]|\))$/', $value)) {
                 throw ConversionException::conversionFailedFormat(
                     $value,
                     $this->getName(),
-                    '(\[|\()(\d),(\d)(\]|\))$'
+                    '(\[|\()(\d+),(\d+)(\]|\))$'
                 );
             }
 
